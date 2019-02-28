@@ -1,0 +1,2 @@
+用redis做session持久化，可以不用担心服务器重启的问题
+如果服务器重启，可以通过Cookie中的sessionId去Redis中恢复Session信息
